@@ -13,6 +13,7 @@
 		25B7F354222D6D6300226D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B7F352222D6D6300226D31 /* Main.storyboard */; };
 		25B7F356222D6D6500226D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B7F355222D6D6500226D31 /* Assets.xcassets */; };
 		25B7F359222D6D6500226D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25B7F357222D6D6500226D31 /* LaunchScreen.storyboard */; };
+		25B7F361222D6DC300226D31 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B7F360222D6DC300226D31 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		25B7F355222D6D6500226D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25B7F358222D6D6500226D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25B7F35A222D6D6500226D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25B7F360222D6DC300226D31 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				25B7F34C222D6D6300226D31 /* AppDelegate.swift */,
 				25B7F34E222D6D6300226D31 /* MasterViewController.swift */,
 				25B7F350222D6D6300226D31 /* DetailViewController.swift */,
+				25B7F360222D6DC300226D31 /* DataManager.swift */,
 				25B7F352222D6D6300226D31 /* Main.storyboard */,
 				25B7F355222D6D6500226D31 /* Assets.xcassets */,
 				25B7F357222D6D6500226D31 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B7F351222D6D6300226D31 /* DetailViewController.swift in Sources */,
+				25B7F361222D6DC300226D31 /* DataManager.swift in Sources */,
 				25B7F34F222D6D6300226D31 /* MasterViewController.swift in Sources */,
 				25B7F34D222D6D6300226D31 /* AppDelegate.swift in Sources */,
 			);
